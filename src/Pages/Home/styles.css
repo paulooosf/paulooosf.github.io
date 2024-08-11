@@ -1,0 +1,111 @@
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(16,0,43,1) 30%, rgba(0,0,0,1) 100%);
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12em;
+  gap: 15em;
+}
+
+ .intro_tipografias {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .intro_tipografias_textos_introducao {
+  font-family: var(--fonte-krona-one);
+  color: var(--cor-headers);
+  font-size: 5.3rem;
+ }
+
+ .intro_tipografias_textos_apresentacao {
+  font-family: var(--fonte-poppins);
+  font-size: 2rem;
+  color: #FFF
+ }
+
+ .destaque {
+  font-family: var(--fonte-poppins);
+  color: var(--cor-destaque-texto);
+ }
+
+ .intro_tipografias_textos {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .intro_tipografias_botoes_lista {
+  display: flex;
+  flex-direction: row;
+  font-family: var(--fonte-poppins);
+  font-size: 1.7rem;
+  gap: 5em;
+  justify-content: center;
+  padding-top: 2rem;
+  list-style: none;
+ }
+
+ .intro_tipografias_botoes_lista_item_link {
+  text-decoration: none;
+  color: #FFFFFF;
+  width: 5rem;
+  padding: 0.2em 0.8em 0.2em 0.8em;
+  border-radius: 0.7em;
+  border: 3px solid var(--cor-roxo-escuro);
+  transition: all 0.3s ease-in, color 0.5s ease;
+ }
+
+ .intro_tipografias_botoes_lista_item_link:hover {
+    color: var(--cor-roxo-escuro);
+    background-color: #FFFFFF;
+    box-shadow: 0 0 30px 5px var(--cor-roxo-escuro);
+ }
+
+ .intro_foto {
+  width: 354px;
+  height: 472px;
+  border-radius: 75px;
+ }
+
+ @media (max-width: 500px) {
+
+  .intro {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 4rem 1rem 4rem;
+    gap: 3rem
+  }
+
+  .intro_foto {
+    width: 300px;
+    height: 400px;
+  }
+
+  .intro_tipografias_textos_introducao {
+    font-size: 3rem;
+  }
+
+  .intro_tipografias_textos_apresentacao {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  .intro_tipografias_botoes_lista {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .intro_tipografias_botoes_lista_item_link {
+    font-size: 1.3rem;
+    width: 0.5rem;
+    padding: 0.2em 2em 0.2em 2em;
+  }
+
+ }
