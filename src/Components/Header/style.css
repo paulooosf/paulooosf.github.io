@@ -16,6 +16,7 @@
     color: #FFFFFF;
     padding-right: 47px;
     gap: 6em;
+    list-style: none;
 }
 
 .header_lista_item_link {
@@ -44,10 +45,21 @@
     box-shadow: 0 0 30px 5px var(--cor-roxo-escuro);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1100px) {
+    .header_lista {
+        padding-right: 0;
+        gap: 3rem
+    }
+}
+
+@media (max-width: 870px) {
     .container_header {
         box-sizing: border-box;
         overflow-x: hidden;
+    }
+
+    .header_lista {
+        padding-right: 0;
     }
     .header_lista_item_link, .header_lista_item_link_contato {
         display: none;
