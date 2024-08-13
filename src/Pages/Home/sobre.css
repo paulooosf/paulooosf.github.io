@@ -51,7 +51,7 @@
 .sobre_texto {
     color: #FFF;
     font-family: var(--fonte-poppins);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 @media (max-width: 1300px) {

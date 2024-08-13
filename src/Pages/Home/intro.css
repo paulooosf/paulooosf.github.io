@@ -1,6 +1,6 @@
 body {
   background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgba(16,0,43,1) 30%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(180deg, rgba(16,0,43,1) 30%, rgb(6, 0, 15) 100%);
 }
 
 .intro {
@@ -24,7 +24,7 @@ body {
 
  .intro_tipografias_textos_apresentacao {
   font-family: var(--fonte-poppins);
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #FFF
  }
 
@@ -78,14 +78,12 @@ body {
  }
 
  .intro_foto {
-  width: 354px;
-  height: 472px;
   border-radius: 75px;
  }
 
  @media (max-width: 1300px) {
   .intro_tipografias_botoes_lista {
-    gap: 2rem;
+    gap: 1.5rem;
   }
  }
 
@@ -100,11 +98,6 @@ body {
     gap: 3rem
   }
 
-  .intro_foto {
-    width: 300px;
-    height: 400px;
-  }
-
   .intro_tipografias_textos_introducao {
     font-size: 3rem;
   }
@@ -114,9 +107,13 @@ body {
     width: 100%;
   }
 
+  .intro_tipografias_botoes {
+    padding-bottom: 5rem;
+  }
+
   .intro_tipografias_botoes_lista {
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
     align-items: center;
   }
 
