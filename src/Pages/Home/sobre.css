@@ -1,87 +1,86 @@
 .sobre {
-    background-image: url(../../assets/background_sobre.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+  background-image: url(../../assets/background_sobre.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .sobre_titulo {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
 }
 
 .titulo_atras {
-    position: absolute;
-    z-index: 1;
-    color: var(--cor-roxo-escuro);
-    font-family: var(--fonte-krona-one);
-    font-size: 6.7rem;
+  position: absolute;
+  z-index: 1;
+  color: var(--cor-roxo-escuro);
+  font-family: var(--fonte-krona-one);
+  font-size: 6.7rem;
 }
 
 .titulo_frente {
-    position: absolute;
-    z-index: 2;
-    color: var(--cor-headers);
-    font-family: var(--fonte-krona-one);
-    font-size: 2.3rem;
+  position: absolute;
+  z-index: 2;
+  color: var(--cor-headers);
+  font-family: var(--fonte-krona-one);
+  font-size: 2.3rem;
 }
 
 .sobre_container {
-    display: flex;
-    padding: 7rem;
-    gap: 2rem;
-    align-items: center;
+  display: flex;
+  padding: 7rem;
+  gap: 2rem;
+  align-items: center;
 }
 
 .sobre_foto {
-    width: 539px;
-    height: 686px;
+  width: 539px;
+  height: 686px;
 }
 
 .container_texto {
-    display: flex;
-    flex-direction: column;
-    gap: 4rem
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 
 .sobre_texto {
-    color: #FFF;
-    font-family: var(--fonte-poppins);
-    font-size: 1.5rem;
+  color: #fff;
+  font-family: var(--fonte-poppins);
+  font-size: 1.5rem;
 }
 
 @media (max-width: 1300px) {
-
 }
 
 @media (max-width: 1300px) {
-    .titulo_atras {
-        font-size: 5rem;
-    }
+  .titulo_atras {
+    font-size: 5rem;
+  }
 
-    .titulo_frente {
-        font-size: 2rem;
-    }
+  .titulo_frente {
+    font-size: 2rem;
+  }
 
-    .sobre_container {
-        flex-direction: column;
-        padding: 4rem;
-    }
+  .sobre_container {
+    flex-direction: column;
+    padding: 4rem;
+  }
 
-    .sobre_foto {
-        width: 335px;
-        height: 441px;
-    }
+  .sobre_foto {
+    width: 335px;
+    height: 441px;
+  }
 
-    .container_texto {
-        gap: 2rem;
-    }
+  .container_texto {
+    gap: 2rem;
+  }
 
-    .sobre_texto {
-        font-size: 1.2rem;
-    }
+  .sobre_texto {
+    font-size: 1.2rem;
+  }
 }

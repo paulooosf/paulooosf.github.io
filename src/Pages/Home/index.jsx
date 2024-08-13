@@ -34,7 +34,11 @@ export default function Home() {
               <ul className="intro_tipografias_botoes_lista">
                 <li className="intro_tipografias_botoes_lista_item">
                   <button className="botao">
-                    <a href="https://www.linkedin.com/in/paulooosf/" target="_blank" className="link">
+                    <a
+                      href="https://www.linkedin.com/in/paulooosf/"
+                      target="_blank"
+                      className="link"
+                    >
                       LinkedIn
                     </a>
                   </button>
@@ -48,7 +52,11 @@ export default function Home() {
                 </li>
                 <li className="intro_tipografias_botoes_lista_item">
                   <button className="botao">
-                    <a href="https://github.com/paulooosf" target="_blank" className="link">
+                    <a
+                      href="https://github.com/paulooosf"
+                      target="_blank"
+                      className="link"
+                    >
                       GitHub
                     </a>
                   </button>
@@ -56,7 +64,11 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <img src={FotoPrincipal} alt="Foto do desenvolvedor Paulo Henrique, um homem branco com cabelo castanho escuro e olhos castanhos." className="intro_foto" />
+          <img
+            src={FotoPrincipal}
+            alt="Foto do desenvolvedor Paulo Henrique, um homem branco com cabelo castanho escuro e olhos castanhos."
+            className="intro_foto"
+          />
         </article>
         <article className="sobre">
           <div className="sobre_titulo" id="sobre">
@@ -64,7 +76,11 @@ export default function Home() {
             <p className="titulo_frente">Quem sou eu?</p>
           </div>
           <div className="sobre_container">
-            <img src={FotoSecundaria} alt="Foto do desenvolvedor Paulo Henrique, um homem branco com cabelo castanho escuro e olhos castanhos." className="sobre_foto" />
+            <img
+              src={FotoSecundaria}
+              alt="Foto do desenvolvedor Paulo Henrique, um homem branco com cabelo castanho escuro e olhos castanhos."
+              className="sobre_foto"
+            />
             <div className="container_texto">
               <p className="sobre_texto">
                 Sou um desenvolvedor FullStack residente no estado do Rio de
