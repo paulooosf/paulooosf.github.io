@@ -25,7 +25,7 @@ export default function Cards() {
         </div>
         <div class="card">
           <p className="card__name">UruBank</p>
-          <a href="">
+          <a href="https://github.com/renatocrachmad/POO-G4" target="_blank">
             <img src={BotaoAbrir} alt="" className="card__open" />
           </a>
           <img src={UruBank} alt="" />
@@ -40,7 +40,7 @@ export default function Cards() {
         </div>
         <div class="card">
           <p className="card__name">Portfólio</p>
-          <a href="">
+          <a href="https://github.com/paulooosf/paulooosf.github.io" target="_blank">
             <img src={BotaoAbrir} alt="" className="card__open" />
           </a>
           <img src={Portfolio} alt="" className="card__image" />
