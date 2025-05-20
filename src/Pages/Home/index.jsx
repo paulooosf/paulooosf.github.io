@@ -129,24 +129,6 @@ export default function Home() {
               width="80px"
             />
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
-              alt="git"
-              height="80px"
-              width="80px"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
-              alt="java"
-              height="80px"
-              width="80px"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
-              alt="spring"
-              height="80px"
-              width="80px"
-            />
-            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
               alt="javascript"
               height="80px"
@@ -164,27 +146,57 @@ export default function Home() {
               height="80px"
               width="80px"
             />
+            <img 
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" 
+              alt="angular"
+              height="80px"
+              width="80px"
+            />
+            <img 
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" 
+              alt="vuejs"
+              height="80px"
+              width="80px"
+            />
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
               alt="postgresql"
               height="80px"
               width="80px"
             />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-              alt="python"
+            <img 
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" 
+              alt="mongodb"
               height="80px"
               width="80px"
             />
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg"
-              alt="photoshop"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+              alt="java"
               height="80px"
               width="80px"
             />
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
-              alt="figma"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
+              alt="spring"
+              height="80px"
+              width="80px"
+            />
+            <img 
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+              alt="csharp"
+              height="80px"
+              width="80px"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+              alt="git"
+              height="80px"
+              width="80px"
+            />
+            <img 
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" 
+              alt="docker"
               height="80px"
               width="80px"
             />
