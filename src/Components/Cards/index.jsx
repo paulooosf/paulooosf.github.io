@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import BotaoAbrir from "../../assets/abrir.svg";
-import Pokedex from "../../assets/projetos/pokedex.png";
+import PsfStock from "../../assets/projetos/psf-stock.png";
 import GameboXed from "../../assets/projetos/gameboxed.png"
 import Portfolio from "../../assets/projetos/portfolio.png";
 
@@ -9,22 +9,22 @@ export default function Cards() {
   return (
     <main className="cards">
       <div className="card">
-        <p className="card__name">Pokédex</p>
-        <a href="https://github.com/GabiBasttos/mobileg6" target="_blank">
+        <p className="card__name">PSF Stock</p>
+        <a href="https://github.com/paulooosf/psf-estoque" target="_blank" rel="noopener noreferrer">
           <img src={BotaoAbrir} alt="" className="card__open" />
         </a>
-        <img src={Pokedex} alt="" />
+        <img src={PsfStock} alt="" />
         <div className="card__content">
-          <p className="card__title">Pokédex</p>
+          <p className="card__title">Psf Stock</p>
           <p className="card__description">
-            Projeto de aplicativo de Pokédex utilizando React Native. O
-            projeto foi desenvolvido em grupo e consome a PokéAPI.
+            Um simples projeto de gerenciamento de estoque, desenvolvido individualmente
+            utilizando Angular 14 e .NET 9.
           </p>
         </div>
       </div>
       <div className="card">
         <p className="card__name">GameboXed</p>
-        <a href="https://github.com/paulooosf/gameboxed-front" target="_blank">
+        <a href="https://github.com/paulooosf/gameboxed-front" target="_blank" rel="noopener noreferrer">
           <img src={BotaoAbrir} alt="" className="card__open" />
         </a>
         <img src={GameboXed} alt="" className="card__image"/>
@@ -38,7 +38,7 @@ export default function Cards() {
       </div>
       <div className="card">
         <p className="card__name">Portfólio</p>
-        <a href="https://github.com/paulooosf/paulooosf.github.io" target="_blank">
+        <a href="https://github.com/paulooosf/paulooosf.github.io" target="_blank" rel="noopener noreferrer">
           <img src={BotaoAbrir} alt="" className="card__open" />
         </a>
         <img src={Portfolio} alt="" className="card__image" />
